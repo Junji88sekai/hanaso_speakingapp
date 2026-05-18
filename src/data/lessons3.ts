@@ -1,0 +1,131 @@
+import { Lesson } from '../types';
+
+export const LESSONS_PART3: Lesson[] = [
+  {
+    id: 11,
+    title: "第11課 飲食・注文・味",
+    title_ja: "第11課 飲食・注文・味",
+    title_en: "Lesson 11. Food, Drinks & Taste",
+    title_es: "Capítulo 11. Comida, Bebida y Sabor",
+    title_it: "Capitolo 11. Cibo, Bevande e Gusto",
+    grammar: "飲食・注文・味",
+    grammar_ja: "飲食・注文・味",
+    grammar_en: "Eating, Drinking, Ordering & Tastes",
+    grammar_es: "Comer, Beber, Pedir y Sabores",
+    grammar_it: "Mangiare, Bere, Ordinare e Gusti",
+    sentences: [
+      { id: "11-1", display_en: "I drink a little alcohol every night.", display_es: "Bebo un poco de alcohol todas las noches.", display_it: "Bevo un po' di alcol ogni sera.", target: "私は毎晩お酒を少し飲みます。", romaji: "Watashi wa maiban osake o sukoshi nomimasu." },
+      { id: "11-2", display_en: "Mr. Suzuki doesn't eat sweet treats.", display_es: "El Sr. Suzuki no come dulces.", display_it: "Il signor Suzuki non mangia dolci.", target: "鈴木さんは甘いお菓子を食べません。", romaji: "Suzuki-san wa amai okashi o tabemasen." },
+      { id: "11-3", display_en: "I'll have chocolate cake for dessert.", display_es: "Comeré pastel de chocolate de postre.", display_it: "Prenderò la torta al cioccolato come dessert.", target: "私はデザートにチョコレートケーキにします。", romaji: "Watashi wa dezāto ni chokorēto kēki ni shimasu." },
+      { id: "11-4", display_en: "Today's lunch is chicken curry.", display_es: "El almuerzo de hoy es curry de pollo.", display_it: "Il pranzo di oggi è curry di pollo.", target: "今日のランチはチキンカレーです。", romaji: "Kyō no ranchi wa chikin karē desu." },
+      { id: "11-5", display_en: "This wasabi is very spicy.", display_es: "Este wasabi es muy picante.", display_it: "Questo wasabi è molto piccante.", target: "このわさびはとても辛いです。", romaji: "Kono wasabi wa totemo karai desu." },
+      { id: "11-6", display_en: "These strawberries are very sweet and delicious.", display_es: "Estas fresas son muy dulces y deliciosas.", display_it: "Queste fragole sono molto dolci e deliziose.", target: "このいちごはとても甘くて美味しいです。", romaji: "Kono ichigo wa totemo amakute oishii desu." },
+      { id: "11-7", display_en: "This coffee is not very bitter.", display_es: "Este café no es muy amargo.", display_it: "Questo caffè non è molto amaro.", target: "このコーヒーはあまり苦くないです。", romaji: "Kono kōhī wa amari nigukunai desu." },
+      { id: "11-8", display_en: "Japanese food looks very beautiful.", display_es: "La comida japonesa se ve muy hermosa.", display_it: "Il cibo giapponese sembra molto bello.", target: "日本の料理は見た目がとてもきれいです。", romaji: "Nihon no ryōri wa mitame ga totemo kirei desu." },
+      { id: "11-9", display_en: "This curry is delicious, but a bit spicy.", display_es: "Este curry está delicioso, pero un poco picante.", display_it: "Questo curry è delizioso, ma un po' piccante.", target: "このカレーはおいしいですが、少し辛いです。", romaji: "Kono karē wa oishii desu ga, sukoshi karai desu." },
+      { id: "11-10", display_en: "Excuse me, please pass the soy sauce.", display_es: "Disculpe, por favor páseme la salsa de soja.", display_it: "Scusi, per favore mi passi la salsa di soia.", target: "すみませんが、醤油をこちらに取ってください。", romaji: "Sumimasen ga, shōyu o kochira ni totte kudasai." },
+      { id: "11-11", display_en: "I always eat rice using chopsticks.", display_es: "Siempre como arroz con palillos.", display_it: "Mangio sempre il riso usando le bacchette.", target: "私はいつも箸を使ってごはんを食べます。", romaji: "Watashi wa itsumo hashi o tsukatte gohan o tabemasu." },
+      { id: "11-12", display_en: "I eat bread, eggs, and fruit every morning.", display_es: "Como pan, huevos y fruta todas las mañanas.", display_it: "Mangio pane, uova e frutta ogni mattina.", target: "毎朝、パンと卵と果物を食べます。", romaji: "Maiasa, pan to tamago to kudamono o tabemasu." }
+    ]
+  },
+  {
+    id: 12,
+    title: "第12課 勧誘と提案",
+    title_ja: "第12課 勧誘と提案",
+    title_en: "Lesson 12. Invitations & Suggestions",
+    title_es: "Capítulo 12. Invitaciones y Sugerencias",
+    title_it: "Capitolo 12. Inviti e Suggerimenti",
+    grammar: "勧誘と提案",
+    grammar_ja: "勧誘と提案",
+    grammar_en: "Invitations & Suggestions",
+    grammar_es: "Invitaciones y Sugerencias",
+    grammar_it: "Inviti e Suggerimenti",
+    sentences: [
+      { id: "12-1", display_en: "Shall we drink coffee together?", target: "一緒にコーヒーを飲みませんか。", romaji: "Isshoni kōhī o nomimasen ka?" },
+      { id: "12-2", display_en: "That sounds good, let's drink together.", target: "いいですね、一緒に飲みましょう。", romaji: "Ii desu ne, isshoni nomimashō." },
+      { id: "12-3", display_en: "Shall we go somewhere over the weekend?", target: "週末、どこかへ遊びに行きませんか。", romaji: "Shūmatsu, dokoka e asobi ni ikimasen ka?" },
+      { id: "12-4", display_en: "Shall we go to Kobe together next holiday?", target: "今度の休みに、いっしょに神戸へ行きませんか。", romaji: "Kondo no yasumi ni, isshoni Kōbe e ikimasen ka?" },
+      { id: "12-5", display_en: "I'm tired, so let's rest for a bit.", target: "疲れたので、ちょっと休みましょう。", romaji: "Tsukareta node, chotto yasumimashō." },
+      { id: "12-6", display_en: "Let's drink warm coffee in the lobby.", target: "ロビーで温かいコーヒーを飲みましょう。", romaji: "Robī de atatakai kōhī o nomimashō." },
+      { id: "12-7", display_en: "It's hot, so shall I close the window?", target: "暑いですから、窓を閉めましょうか。", romaji: "Atsui desu kara, mado o shimemashō ka?" },
+      { id: "12-8", display_en: "Let's go drinking after work ends.", target: "仕事が終わってから、飲みに行きましょう。", romaji: "Shigoto ga owatte kara, nomi ni ikimashō." },
+      { id: "12-9", display_en: "Shall we go cherry blossom viewing together next weekend?", target: "今度の週末にいっしょにお花見をしませんか。", romaji: "Kondo no shūmatsu ni isshoni ohanami o shimasen ka?" },
+      { id: "12-10", display_en: "It looks heavy, so shall I carry the luggage?", target: "重そうですから、荷物を持ちましょうか。", romaji: "Omosō desu kara, nimotsu o mochimashō ka?" }
+    ]
+  },
+  {
+    id: 13,
+    title: "第13課 形容詞による描写",
+    title_ja: "第13課 形容詞による描写",
+    title_en: "Lesson 13. Description with Adjectives",
+    title_es: "Capítulo 13. Descripción con Adjetivos",
+    title_it: "Capitolo 13. Descrizione con Aggettivi",
+    grammar: "形容詞による描写",
+    grammar_ja: "形容詞による描写",
+    grammar_en: "Description with Adjectives",
+    grammar_es: "Descripción con Adjetivos",
+    grammar_it: "Descrizione con Aggettivi",
+    sentences: [
+      { id: "13-1", display_en: "Cherry blossoms are very beautiful in spring.", target: "春は桜の花がとてもきれいです。", romaji: "Haru wa sakura no hana ga totemo kirei desu." },
+      { id: "13-2", display_en: "Mt. Fuji is the highest mountain in Japan.", target: "富士山は日本で一番高い山です。", romaji: "Fujisan wa Nihon de ichiban takai yama desu." },
+      { id: "13-3", display_en: "Mt. Fuji is a world-famous mountain.", target: "富士山は世界で有名な山です。", romaji: "Fujisan wa sekai de yūmei na yama desu." },
+      { id: "13-4", display_en: "Tokyo is a very lively town.", target: "東京はとてもにぎやかな町です。", romaji: "Tōkyō wa totemo nigiyaka na machi desu." },
+      { id: "13-5", display_en: "Kyoto is a quiet, old town.", target: "京都は静かで、ふるいまちです。", romaji: "Kyōto wa shizuka de, furui machi desu." },
+      { id: "13-6", display_en: "Kyoto has many famous temples.", target: "京都には有名なお寺がたくさんあります。", romaji: "Kyōto ni wa yūmei na otera ga takusan arimasu." },
+      { id: "13-7", display_en: "Mr. Tanaka is a very kind person.", target: "田中さんはとても親切な人です。", romaji: "Tanaka-san wa totemo shinsetsu na hito desu." },
+      { id: "13-8", display_en: "The town I live in is not very lively.", target: "私の住んでいる町はあまりにぎやかじゃありません。", romaji: "Watashi no sunde iru machi wa amari nigiyaka ja arimasen." },
+      { id: "13-9", display_en: "This test was very easy.", target: "今回のテストはとても簡単でした。", romaji: "Konkai no tesuto wa totemo kantan deshita." },
+      { id: "13-10", display_en: "Japanese food is expensive, but very delicious.", target: "日本の食べ物は高いですが、とてもおいしいです。", romaji: "Nihon no tabemono wa takai desu ga, totemo oishii desu." },
+      { id: "13-11", display_en: "Japanese is difficult, but very interesting.", target: "日本語は難しいですが、とてもおもしろいです。", romaji: "Nihongo wa muzukashii desu ga, totemo omoshiroi desu." },
+      { id: "13-12", display_en: "My computer is not new.", target: "私のコンピューターは新しくないです。", romaji: "Watashi no konpyūtā wa atarashikunai desu." }
+    ]
+  },
+  {
+    id: 14,
+    title: "第14課 感想・評価・過去の状態",
+    title_ja: "第14課 感想・評価・過去の状態",
+    title_en: "Lesson 14. Impressions & Past States",
+    title_es: "Capítulo 14. Impresiones y Estados Pasados",
+    title_it: "Capitolo 14. Impressioni e Stati Passati",
+    grammar: "感想・評価・過去の状態",
+    grammar_ja: "感想・評価・過去の状態",
+    grammar_en: "Impressions, Evaluations & Past States",
+    grammar_es: "Impresiones, Evaluaciones y Estados Pasados",
+    grammar_it: "Impressioni, Valutazioni e Stati Passati",
+    sentences: [
+      { id: "14-1", display_en: "Yesterday's party was very fun.", display_es: "La fiesta de ayer fue muy divertida.", display_it: "La festa di ieri è stata molto divertente.", target: "昨日のパーティーはとても楽しかったです。", romaji: "Kinō no pātī wa totemo tanoshikatta desu." },
+      { id: "14-2", display_en: "The weather was not very good yesterday.", display_es: "El tiempo no fue muy bueno ayer.", display_it: "Il tempo non è stato molto bello ieri.", target: "昨日は天気があまりよくなかったです。", romaji: "Kinō wa tenki ga amari yokunakatta desu." },
+      { id: "14-3", display_en: "Yesterday's test was very easy.", display_es: "El examen de ayer fue muy fácil.", display_it: "L'esame di ieri è stato molto facile.", target: "昨日のテストはとても簡単でした。", romaji: "Kinō no tesuto wa totemo kantan deshita." },
+      { id: "14-4", display_en: "Work was not off yesterday.", display_es: "Ayer no hubo descanso del trabajo.", display_it: "Ieri non era vacanza dal lavoro.", target: "昨日は仕事が休みじゃありませんでした。", romaji: "Kinō wa shigoto ga yasumi ja arimasen deshita." },
+      { id: "14-5", display_en: "How is your Japanese study going?", display_es: "¿Cómo va tu estudio de japonés?", display_it: "Come va lo studio del giapponese?", target: "あなたの日本語の勉強はどうですか。", romaji: "Anata no Nihongo no benkyō wa dō desu ka?" },
+      { id: "14-6", display_en: "How was the trip last week?", display_es: "¿Cómo fue el viaje la semana pasada?", display_it: "Com'è andato il viaggio la scorsa settimana?", target: "先週の旅行はどうでしたか。", romaji: "Senshū no ryokō wa dō deshita ka?" },
+      { id: "14-7", display_en: "How was the restaurant food?", display_es: "¿Cómo estuvo la comida del restaurante?", display_it: "Com'era il cibo del ristorante?", target: "レストランの料理はどうでしたか。", romaji: "Resutoran no ryōri wa dō deshita ka?" },
+      { id: "14-8", display_en: "Yesterday's food was not very delicious.", display_es: "La comida de ayer no estuvo muy deliciosa.", display_it: "Il cibo di ieri non era molto delizioso.", target: "昨日の料理はあまりおいしくなかったです。", romaji: "Kinō no ryōri wa amari oishikunakatta desu." },
+      { id: "14-9", display_en: "Kyoto was not very quiet last week.", display_es: "Kioto no estuvo muy tranquila la semana pasada.", display_it: "Kyoto non era molto tranquilla la scorsa settimana.", target: "先週、京都はあまり静かじゃありませんでした。", romaji: "Senshū, Kyōto wa amari shizuka ja arimasen deshita." },
+      { id: "14-10", display_en: "Last week's festival was very fun.", display_es: "El festival de la semana pasada fue muy divertido.", display_it: "Il festival della scorsa settimana è stato molto divertente.", target: "先週のお祭りはとても楽しかったです。", romaji: "Senshū no omatsuri wa totemo tanoshikatta desu." }
+    ]
+  },
+  {
+    id: 15,
+    title: "第15課 比較と最上級",
+    title_ja: "第15課 比較と最上級",
+    title_en: "Lesson 15. Comparison & Superlatives",
+    title_es: "Capítulo 15. Comparación y Superlativos",
+    title_it: "Capitolo 15. Comparazione e Superlativi",
+    grammar: "比較と最上級",
+    grammar_ja: "比較と最上級",
+    grammar_en: "Comparisons & Superlatives",
+    grammar_es: "Comparaciones y Superlativos",
+    grammar_it: "Comparazione e Superlativi",
+    sentences: [
+      { id: "15-1", display_en: "Tokyo has more people and is larger than Osaka.", display_es: "Tokio tiene más gente y es más grande que Osaka.", display_it: "Tokyo ha più persone ed è più grande di Osaka.", target: "東京は大阪より人が多くて大きいです。", romaji: "Tōkyō wa Ōsaka yori hito ga ookute ookii desu." },
+      { id: "15-2", display_en: "Between Hokkaido and Kyushu, which is larger?", display_es: "Entre Hokkaido y Kyushu, ¿cuál es más grande?", display_it: "Tra Hokkaido e Kyushu, quale è più grande?", target: "北海道と九州とでは、どちらが広いですか。", romaji: "Hokkaidō to Kyūshū to de wa, dochira ga hiroi desu ka?" },
+      { id: "15-3", display_en: "Hokkaido is larger than Kyushu.", display_es: "Hokkaido es más grande que Kyushu.", display_it: "L'Hokkaido è più grande del Kyushu.", target: "九州より北海道のほうが広いです。", romaji: "Kyūshū yori Hokkaidō no hō ga hiroi desu." },
+      { id: "15-4", display_en: "Among sports, soccer is the most interesting.", display_es: "Entre los deportes, el fútbol es el más interesante.", display_it: "Tra gli sport, il calcio è il più interessante.", target: "スポーツの中でサッカーがいちばんおもしろいです。", romaji: "Supōtsu no naka de sakkā ga ichiban omoshiroi desu." },
+      { id: "15-5", display_en: "February is the coldest in a year.", display_es: "Febrero es el más frío en un año.", display_it: "Febbraio è il mese più freddo dell'anno.", target: "１年で２月がいちばん寒いです。", romaji: "Ichinen de nigatsu ga ichiban samui desu." },
+      { id: "15-6", display_en: "This bag is heavier than that bag.", display_es: "Esta bolsa es más pesada que esa bolsa.", display_it: "Questa borsa è più pesante di quella borsa.", target: "この鞄はその鞄より重いです。", romaji: "Kono kaban wa sono kaban yori omoi desu." },
+      { id: "15-7", display_en: "This alcohol is more expensive than that wine.", display_es: "Este alcohol es más caro que aquel vino.", display_it: "Questo alcolico è più costoso di quel vino.", target: "このお酒はあのワインより高いです。", romaji: "Kono osake wa ano wain yori takai desu." },
+      { id: "15-8", display_en: "Among Japanese food, I like tempura the best.", display_es: "Entre la comida japonesa, me gusta más el tempura.", display_it: "Tra i piatti giapponesi, mi piace di più la tempura.", target: "日本料理で天ぷらがいちばん好きです。", romaji: "Nihon ryōri de tenpura ga ichiban suki desu." }
+    ]
+  }
+];

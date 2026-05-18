@@ -1,0 +1,6 @@
+{
+  "name": "話そう！日本語スピーキングアプリ",
+  "description": "日本語のスピーキング練習アプリ。31の文法レッスンを自由に選択して練習できます。進捗管理機能付き。",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

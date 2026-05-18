@@ -1,0 +1,133 @@
+import { Lesson } from '../types';
+
+export const LESSONS_PART2: Lesson[] = [
+  {
+    id: 6,
+    title: "第6課 時刻・曜日・期間",
+    title_ja: "第6課 時刻・曜日・期間",
+    title_en: "Lesson 6. Time, Days & Duration",
+    title_es: "Capítulo 6. Tiempo, Días y Duración",
+    title_it: "Capitolo 6. Ora, Giorni e Durata",
+    grammar: "時刻・曜日・期間",
+    grammar_ja: "時刻・曜日・期間",
+    grammar_en: "Time, Days & Duration",
+    grammar_es: "Tiempo, Días y Duración",
+    grammar_it: "Ora, Giorni e Durata",
+    sentences: [
+      { id: "6-1", display_en: "The time now is 4:05 PM.", display_es: "La hora actual es las 4:05 PM.", display_it: "L'ora attuale è le 16:05.", target: "今の時間は午後４時５分です。", romaji: "Ima no jikan wa gogo yoji gofun desu." },
+      { id: "6-2", display_en: "Company and school holidays are Wednesday and Saturday.", display_es: "Los feriados de la empresa y la escuela son miércoles y sábado.", display_it: "Le vacanze della ditta e della scuola sono mercoledì e sabato.", target: "会社や学校の休みは水曜日と土曜日です。", romaji: "Kaisha ya gakkō no yasumi wa suiyōbi to doyōbi desu." },
+      { id: "6-3", display_en: "The company's lunch break is from 12:00 to 1:00.", display_es: "El descanso para almorzar de la empresa es de 12:00 a 1:00.", display_it: "La pausa pranzo dell'azienda è dalle 12:00 alle 13:00.", target: "会社の昼休みは12時から1時までです。", romaji: "Kaisha no hiruyasumi wa jūniji kara ichiji made desu." },
+      { id: "6-4", display_en: "The current time is 9:30 AM.", display_es: "La hora actual es las 9:30 AM.", display_it: "L'ora attuale è le 9:30 del mattino.", target: "今の時刻は午前９時半です。", romaji: "Ima no jikoku wa gozen kuji han desu." },
+      { id: "6-5", display_en: "Tomorrow's day of the week is Monday.", display_es: "El día de la semana de mañana es lunes.", display_it: "Domani è lunedì.", target: "明日の曜日は月曜日です。", romaji: "Ashita no yōbi wa getsuyōbi desu." },
+      { id: "6-6", display_en: "Yesterday's day of the week was Sunday.", display_es: "El día de la semana de ayer fue domingo.", display_it: "Ieri era domenica.", target: "昨日の曜日は日曜日でした。", romaji: "Kinō no yōbi wa nichiyōbi deshita." },
+      { id: "6-7", display_en: "I go to the movie theater to watch a movie once a week.", display_es: "Voy al cine a ver una película una vez a la semana.", display_it: "Vado al cinema a vedere un film una volta alla settimana.", target: "１週間に１回、映画館へ映画を見に行きます。", romaji: "Isshūkan ni ikkai, eigakan e eiga o mi ni ikimasu." },
+      { id: "6-8", display_en: "I studied Japanese in Japan for 3 months.", display_es: "Estudié japonés en Japón durante 3 meses.", display_it: "Ho studiato giapponese in Giappone per 3 mesi.", target: "私は日本で３ヶ月間、日本語を勉強しました。", romaji: "Watashi wa Nihon de sankangetsukan, Nihongo o benkyō shimashita." },
+      { id: "6-9", display_en: "It takes 3 hours from here to Osaka by Shinkansen.", display_es: "Se tarda 3 horas desde aquí a Osaka en Shinkansen.", display_it: "Ci vogliono 3 ore da qui a Osaka con lo Shinkansen.", target: "ここから大阪まで新幹線で３時間かかります。", romaji: "Koko kara Ōsaka made shinkansen de sanjikan kakarimasu." },
+      { id: "6-10", display_en: "I have been living in Japan for about 2 years.", display_es: "He estado viviendo en Japón durante unos 2 años.", display_it: "Vivo in Giappone da circa 2 anni.", target: "私は２年ぐらいずっと日本に住んでいます。", romaji: "Watashi wa ninen gurai zutto Nihon ni sunde imasu." },
+      { id: "6-11", display_en: "It takes 11 and a half hours to my country by plane.", display_es: "Se tarda 11 horas y media a mi país en avión.", display_it: "Ci vogliono 11 ore e mezza per il mio paese in aereo.", target: "飛行機で私の国まで１１時間半かかります。", romaji: "飛行機で私の国まで１１時間半かかります。" },
+      { id: "6-12", display_en: "The time now is 2:20.", display_es: "La hora actual son las 2:20.", display_it: "L'ora attuale è le 2:20.", target: "今の時間は２時２０分です。", romaji: "Ima no jikan wa niji nijūpun desu." },
+      { id: "6-13", display_en: "The next bus comes here at 3:15.", display_es: "El próximo autobús llega aquí a las 3:15.", display_it: "Il prossimo autobus arriva qui alle 15:15.", target: "次のバスは３時１５分にここに来ます。", romaji: "Tsugi no basu wa sanji jūgofun ni koko ni kimasu." }
+    ]
+  },
+  {
+    id: 7,
+    title: "第7課 日常の動作と習慣",
+    title_ja: "第7課 日常の動作と習慣",
+    title_en: "Lesson 7. Daily Actions & Habits",
+    title_es: "Capítulo 7. Acciones y Hábitos Diarios",
+    title_it: "Capitolo 7. Azioni e Abitudini Quotidiane",
+    grammar: "日常の動作と習慣",
+    grammar_ja: "日常の動作と習慣",
+    grammar_en: "Daily Actions & Habits",
+    grammar_es: "Acciones y Hábitos Diarios",
+    grammar_it: "Azioni e Abitudini Quotidiane",
+    sentences: [
+      { id: "7-1", display_en: "I wake up at 6 every morning and go jogging.", display_es: "Me despierto a las 6 todas las mañanas y voy a correr.", display_it: "Mi sveglio alle 6 ogni mattina e vado a fare jogging.", target: "私は毎朝６時に起きて、ジョギングをします。", romaji: "Watashi wa maiasa rokuji ni okite, jogingu o shimasu." },
+      { id: "7-2", display_en: "I work hard every day from 9 to 6.", display_es: "Trabajo duro todos los días de 9 a 6.", display_it: "Lavoro sodo ogni giorno dalle 9 alle 18.", target: "私は毎日９時から６時まで一生懸命働きます。", romaji: "Watashi wa mainichi kuji kara rokuji made isshōkenmei hatarakimasu." },
+      { id: "7-3", display_en: "I study for about an hour at home at night.", display_es: "Estudio durante aproximadamente una hora en casa por la noche.", display_it: "Studio per circa un'ora a casa la sera.", target: "私は夜、うちで１時間ぐらい勉強します。", romaji: "Watashi wa yoru, uchi de ichijikan gurai benkyō shimasu." },
+      { id: "7-4", display_en: "I wake up at 7:30 every morning and eat breakfast.", display_es: "Me despierto a las 7:30 todas las mañanas y desayuno.", display_it: "Mi sveglio alle 7:30 ogni mattina e faccio colazione.", target: "私は毎朝７時半に起きて、朝ごはんを食べます。", romaji: "Watashi wa maiasa nanaji han ni okite, asagohan o tabemasu." },
+      { id: "7-5", display_en: "Last night I went to bed around 11:00.", display_es: "Anoche me fui a la cama alrededor de las 11:00.", display_it: "Ieri sera sono andato a letto verso le 23:00.", target: "昨日の晩は１１時ごろに寝ました。", romaji: "Kinō no ban wa jūichiji goro ni nemashita." },
+      { id: "7-6", display_en: "On weekends, I always go jogging in the park.", display_es: "Los fines de semana, siempre voy a correr al parque.", display_it: "Nei fine settimana vado sempre a fare jogging al parco.", target: "週末はいつも公園でジョギングをします。", romaji: "Shūmatsu wa itsumo kōen de jogingu o shimasu." },
+      { id: "7-7", display_en: "I practice guitar at school every day.", display_es: "Practico la guitarra en la escuela todos los días.", display_it: "Suono la chitarra a scuola ogni giorno.", target: "私は毎日、学校でギターの練習をします。", romaji: "Watashi wa mainichi, gakkō de gitā no renshū o shimasu." },
+      { id: "7-8", display_en: "I am studying Japanese at a Japanese language school every day.", display_es: "Estoy estudiando japonés en una escuela de japonés todos los días.", display_it: "Studio giapponese in una scuola di lingua giapponese ogni giorno.", target: "毎日、日本語学校で日本語を勉強しています。", romaji: "Mainichi, Nihongo gakkō de Nihongo o benkyō shite imasu." }
+    ]
+  },
+  {
+    id: 8,
+    title: "第8課 移動と交通手段",
+    title_ja: "第8課 移動と交通手段",
+    title_en: "Lesson 8. Movement & Transport",
+    title_es: "Capítulo 8. Movilidad y Transporte",
+    title_it: "Capitolo 8. Movimento e Trasporti",
+    grammar: "移動と交通手段",
+    grammar_ja: "移動と交通手段",
+    grammar_en: "Movement & Transport",
+    grammar_es: "Movilidad y Transporte",
+    grammar_it: "Movimento e Trasporti",
+    sentences: [
+      { id: "8-1", display_en: "I will go on a trip to Kyoto tomorrow.", display_es: "Mañana iré de viaje a Kioto.", display_it: "Domani farò un viaggio a Kyoto.", target: "私は明日、京都へ旅行に行きます。", romaji: "Watashi wa ashita, Kyōto e ryokō ni ikimasu." },
+      { id: "8-2", display_en: "I return home by taxi every day.", display_es: "Vuelvo a casa en taxi todos los días.", display_it: "Torno a casa in taxi ogni giorno.", target: "私は毎日タクシーでうちへ帰ります。", romaji: "Watashi wa mainichi takushī de uchi e kaerimasu." },
+      { id: "8-3", display_en: "I came to Japan with my family.", display_es: "Vine a Japón con mi familia.", display_it: "Sono venuto in Giappone con la mia famiglia.", target: "私は家族といっしょに日本へ来ました。", romaji: "Watashi wa kazoku to isshoni Nihon e kimashita." },
+      { id: "8-4", display_en: "Where will you go tomorrow?", display_es: "¿A dónde irás mañana?", display_it: "Dove andrai domani?", target: "あなたは明日、どこへ行きますか。", romaji: "Anata wa ashita, doko e ikimasu ka?" },
+      { id: "8-5", display_en: "How do you go to work every day?", display_es: "¿Cómo vas al trabajo todos los días?", display_it: "Come vai al lavoro ogni giorno?", target: "あなたは毎日、何で会社へ行きますか。", romaji: "Anata wa mainichi, nande kaisha e ikimasu ka?" },
+      { id: "8-6", display_en: "I go to Osaka by train and subway.", display_es: "Voy a Osaka en tren y metro.", display_it: "Vado a Osaka in treno e metropolitana.", target: "電車と地下鉄で大阪へ行きます。", romaji: "Densha to chikatetsu de Ōsaka e ikimasu." },
+      { id: "8-7", display_en: "I came to Japan in April of last year.", display_es: "Vine a Japón en abril del año pasado.", display_it: "Sono venuto in Giappone ad aprile dell'anno scorso.", target: "私は去年の４月に日本へ来ました。", romaji: "Watashi wa kyonen no shigatsu ni Nihon e kimashita." },
+      { id: "8-8", display_en: "I always return home alone.", display_es: "Siempre vuelvo a casa solo.", display_it: "Torno sempre a casa da solo.", target: "私はいつも一人でうちへ帰ります。", romaji: "Watashi wa itsumo hitori de uchi e kaerimasu." },
+      { id: "8-9", display_en: "I go to a large hospital by subway.", display_es: "Voy a un hospital grande en metro.", display_it: "Vado in un grande ospedale in metropolitana.", target: "地下鉄で大きな病院へ行きます。", romaji: "Chikatetsu de ookina byōin e ikimasu." },
+      { id: "8-10", display_en: "I go to Yokohama by bus every day.", display_es: "Voy a Yokohama en autobús todos los días.", display_it: "Vado a Yokohama in autobus ogni giorno.", target: "私は毎日バスで横浜へ行きます。", romaji: "Watashi wa mainichi basu de Yokohama e ikimasu." },
+      { id: "8-11", display_en: "I come to school on foot every day.", display_es: "Vengo a la escuela a pie todos los días.", display_it: "Vengo a scuola a piedi ogni giorno.", target: "私は毎日、歩いて学校へ来ます。", romaji: "Watashi wa mainichi, aruite gakkō e kimasu." },
+      { id: "8-12", display_en: "It takes about 12 hours to my country by plane.", display_es: "Se tarda unas 12 horas a mi país en avión.", display_it: "Ci vogliono circa 12 ore per il mio paese in aereo.", target: "私の国まで飛行機で１２時間ぐらいかかります。", romaji: "Watashi no kuni made hikōki de jūnijikan gurai kakarimasu." }
+    ]
+  },
+  {
+    id: 9,
+    title: "第9課 存在の表現",
+    title_ja: "第9課 存在の表現",
+    title_en: "Lesson 9. Expressions of Existence",
+    title_es: "Capítulo 9. Expresiones de Existencia",
+    title_it: "Capitolo 9. Espressioni di Esistenza",
+    grammar: "存在の表現",
+    grammar_ja: "存在の表現",
+    grammar_en: "Expressions of Existence",
+    grammar_es: "Expresiones de Existencia",
+    grammar_it: "Espressioni di Esistenza",
+    sentences: [
+      { id: "9-1", display_en: "There is a convenient convenience store over there.", display_es: "Hay un minimarket conveniente allá.", display_it: "C'è un comodo minimarket laggiù.", target: "あそこに便利なコンビニがあります。", romaji: "Asoko ni benri na konbini ga arimasu." },
+      { id: "9-2", display_en: "Mr. Tanaka is sitting in the lobby.", display_es: "El Sr. Tanaka está sentado en el vestíbulo.", display_it: "Il signor Tanaka è seduto nella hall.", target: "ロビーに田中さんが座っています。", romaji: "Robī ni Tanaka-san ga suwatte imasu." },
+      { id: "9-3", display_en: "Who is in the office?", display_es: "¿Quién está en la oficina?", display_it: "Chi c'è in ufficio?", target: "事務所に誰がいますか。", romaji: "Jimusho ni dare ga imasu ka?" },
+      { id: "9-4", display_en: "What is in that park?", display_es: "¿Qué hay en ese parque?", display_it: "Cosa c'è in quel parco?", target: "あの公園に何がありますか。", romaji: "Ano kōen ni nani ga arimasu ka?" },
+      { id: "9-5", display_en: "My family is in New York now.", display_es: "Mi familia está en Nueva York ahora.", display_it: "La mia famiglia è a New York ora.", target: "私の家族は今、ニューヨークにいます。", romaji: "Watashi no kazoku wa ima, Nyūyōku ni imasu." },
+      { id: "9-6", display_en: "There are energetic children in the park.", display_es: "Hay niños energéticos en el parque.", display_it: "Ci sono bambini energici nel parco.", target: "公園に元気な子供がいます。", romaji: "Kōen ni genki na kodomo ga imasu." },
+      { id: "9-7", display_en: "Mr. Brown's house is in the north of Osaka.", display_es: "La casa del Sr. Brown está en el norte de Osaka.", display_it: "La casa del signor Brown è a nord di Osaka.", target: "ブラウンさんのうちは大阪の北にあります。", romaji: "Buraun-san no uchi wa Ōsaka no kita ni arimasu." },
+      { id: "9-8", display_en: "The manager and the section manager are in the meeting room.", display_es: "El gerente y el jefe de sección están en la sala de reuniones.", display_it: "Il direttore e il capoufficio sono nella sala riunioni.", target: "会議室に部長と課長がいます。", romaji: "Kaigishitsu ni buchō to kachō ga imasu." },
+      { id: "9-9", display_en: "There is a white dog in the garden.", display_es: "Hay un perro blanco en el jardín.", display_it: "C'è un cane bianco in giardino.", target: "庭に白い犬がいます。", romaji: "Niwa ni shiroi inu ga imasu." },
+      { id: "9-10", display_en: "Mr. Suzuki is in the bookstore now.", display_es: "El Sr. Suzuki está en la librería ahora.", display_it: "Il signor Suzuki è in libreria ora.", target: "鈴木さんは今、本屋の中にいます。", romaji: "Suzuki-san wa ima, hon-ya no naka ni imasu." }
+    ]
+  },
+  {
+    id: 10,
+    title: "第10課 位置関係の描写",
+    title_ja: "第10課 位置関係の描写",
+    title_en: "Lesson 10. Spatial Relationships",
+    title_es: "Capítulo 10. Relaciones Espaciales",
+    title_it: "Capitolo 10. Relazioni Spaziali",
+    grammar: "位置関係の描写",
+    grammar_ja: "位置関係の描写",
+    grammar_en: "Spatial Relationships",
+    grammar_es: "Relaciones Espaciales",
+    grammar_it: "Relazioni Spaziali",
+    sentences: [
+      { id: "10-1", display_en: "There is a small coffee shop next to the supermarket.", display_es: "Hay una pequeña cafetería al lado del supermercado.", display_it: "C'è un piccolo caffè accanto al supermercato.", target: "スーパーの隣に小さな喫茶店があります。", romaji: "Sūpā no tonari ni chiisana kissaten ga arimasu." },
+      { id: "10-2", display_en: "There are a dictionary and a notebook on the desk.", display_es: "Hay un diccionario y un cuaderno en el escritorio.", display_it: "Ci sono un dizionario e un quaderno sulla scrivania.", target: "机の上に辞書とノートがあります。", romaji: "Tsukue no ue ni jisho to nōto ga arimasu." },
+      { id: "10-3", display_en: "There are many old photos in the box.", display_es: "Hay muchas fotos antiguas en la caja.", display_it: "Ci sono molte vecchie foto nella scatola.", target: "箱の中に古い写真がたくさんあります。", romaji: "Hako no naka ni furui shashin ga takusan arimasu." },
+      { id: "10-4", display_en: "Mr. Kobayashi is in front of the elevator.", display_es: "El Sr. Kobayashi está frente al ascensor.", display_it: "Il signor Kobayashi è davanti all'ascensore.", target: "エレベーターの前に小林さんがいます。", romaji: "Erebētā no mae ni Kobayashi-san ga imasu." },
+      { id: "10-5", display_en: "Elena is standing in front of Mr. Tanaka.", display_es: "Elena está de pie frente al Sr. Tanaka.", display_it: "Elena è in piedi davanti al signor Tanaka.", target: "田中さんの前にエレナさんが立っています。", romaji: "Tanaka-san no mae ni Erena-san ga tatte imasu." },
+      { id: "10-6", display_en: "The post office is diagonally opposite the bank.", display_es: "La oficina de correos está diagonalmente opuesta al banco.", display_it: "L'ufficio postale è diagonalmente opposto alla banca.", target: "郵便局は銀行の斜め向かいにあります。", romaji: "Yūbinkyoku wa ginkō no naname mukai ni arimasu." },
+      { id: "10-7", display_en: "The coffee shop is right next to the supermarket.", display_es: "La cafetería está justo al lado del supermercado.", display_it: "Il caffè è proprio accanto al supermercato.", target: "喫茶店はスーパーのすぐ隣にあります。", romaji: "Kissaten wa sūpā no sugu tonari ni arimasu." },
+      { id: "10-8", display_en: "The book is on the shelf above the desk.", display_es: "El libro está en el estante sobre el escritorio.", display_it: "Il libro è sullo scaffale sopra la scrivania.", target: "本は机の上の棚にあります。", romaji: "Hon wa tsukue no ue no tana ni arimasu." },
+      { id: "10-9", display_en: "The toilet is next to the stairs.", display_es: "El baño está al lado de las escaleras.", display_it: "Il bagno è accanto alle scale.", target: "階段の隣にトイレがあります。", romaji: "Kaidan no tonari ni toire ga arimasu." },
+      { id: "10-10", display_en: "The eggs are on the shelf behind the bread.", display_es: "Los huevos están en el estante detrás del pan.", display_it: "Le uova sono sullo scaffale dietro il pane.", target: "卵はパンの後ろの棚にあります。", romaji: "Tamago wa pan no ushiro no tana ni arimasu." },
+      { id: "10-11", display_en: "The scissors are in the drawer of the desk.", display_es: "Las tijeras están en el cajón del escritorio.", display_it: "Le forbici sono nel cassetto della scrivania.", target: "はさみは机の引き出しの中にあります。", romaji: "Hasami wa tsukue no hikidashi no naka ni arimasu." }
+    ]
+  }
+];
